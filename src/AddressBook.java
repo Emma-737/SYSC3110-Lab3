@@ -19,4 +19,7 @@ public class AddressBook {
     public void printList(){
         System.out.println(buddies);
     }
+    public static void main(String[] args) {
+        System.out.println("address book");
+    }
 }
