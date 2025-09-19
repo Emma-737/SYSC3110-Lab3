@@ -9,13 +9,14 @@ public class Main {
         System.out.println("Hello " + buddy2.getName());
 
         //test for address book
+        BuddyInfo buddy3 = new BuddyInfo("Jane", "12 ashbury st", "613-238-4950");
         AddressBook addressBook = new AddressBook();
-        addressBook.addBuddies(buddy);
-        addressBook.addBuddies(buddy2);
-        addressBook.printList();
-        addressBook.remove(buddy2);
-        addressBook.printList();
+        addressBook.addBuddies(buddy3);
+        //addressBook.addBuddies(buddy2);
+        //addressBook.printList();
+        addressBook.remove(buddy3);
+        //addressBook.printList();
 
-        System.out.println("address book");
+        //System.out.println("address book");
     }
 }
